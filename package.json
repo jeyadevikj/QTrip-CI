@@ -1,0 +1,12 @@
+{
+    "dependencies": {
+      "express": "*"
+    },
+    "scripts": {
+      "start": "node app.js"
+    },
+    "name": "qtrip",
+    "version": "1.0.0",
+    "main": "app.js",
+    "devDependencies": {}
+  }
