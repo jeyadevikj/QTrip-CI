@@ -23,9 +23,9 @@ jobs:
       - run:
           name: Build and push Docker Image
           command: |
-            docker build -t jeyadevi/nodejswebapp1:latest .
+            docker build -t jeyadevi/QTrip-CI:latest .
             echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-            docker push jeyadevi/nodejswebapp1:latest
+            docker push jeyadevi/QTrip-CI:latest
 
 workflows:
   build_test:
